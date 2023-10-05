@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- . para classe -->
+    <!-- # para id -->
+
+    <!-- id, classe e tag (do mais especifico até o mais generico) -->
+    <style>
+        .corP{
+            color:#E56399;
+        }
+
+        .fonteP{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #tituloBacana{
+            /* tamanho fonte */
+            font-size: 40pt;
+            /* tipo de fonte */
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+            /* texto de decoração */
+            text-decoration: underline;
+        }
+
+        #paragrafoLegal{
+            color: #D3A588;
+        }
+
+        body{
+            /* cor de fundo */
+            background-color: #ECE2D0;
+            /* cor de texto */
+            color: #7FD1B9;
+            /* alinhamento de texto */
+            text-align: center;
+        }
+
+        img{
+            /* largura */
+            width: 500px;
+            /* altura */
+            height: auto;
+            float: inline-start;
+            /* arredondar borda */
+            border-radius: 20px;
+        }
+
+        .borda{
+            /* borda: tipo, cor e espesura */
+            border: solid #7A6563 10px ;
+        }
+
+        #camila{
+            border: dashed 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: #7A6563;">Aula CSS</h1>
+    <h3 id="tituloBacana">CANTORES FAVORITOS</h3>
+    <h3>CAMILA CABELLO</h3>
+        <p class="corP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla corporis voluptas unde minima laudantium, excepturi enim, impedit corrupti soluta sint deleniti veniam ratione, accusamus eos pariatur cupiditate provident? Quibusdam, asperiores.</p>
+            <img class="borda" id="camila" src="imagens e videos/camilacabello.jpg" alt="camila cabello">
+    <h3>BIG SOTO</h3>
+        <p class="corP" id="paragrafoLegal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla corporis voluptas unde minima laudantium, excepturi enim, impedit corrupti soluta sint deleniti veniam ratione, accusamus eos pariatur cupiditate provident? Quibusdam, asperiores.</p>
+            <img class="borda" src="imagens e videos/bigsoto.jpg" alt="big soto">
+    <h3>LAUREN JAUREGUI</h3>
+        <p class="corP fonteP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla corporis voluptas unde minima laudantium, excepturi enim, impedit corrupti soluta sint deleniti veniam ratione, accusamus eos pariatur cupiditate provident? Quibusdam, asperiores.</p>
+            <img class="borda" src="imagens e videos/laurenjauregui.jpg" alt="lauren jauregui">
+</html>
