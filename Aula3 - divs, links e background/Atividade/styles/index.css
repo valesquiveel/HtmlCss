@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pagina {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 60px;
+    background-color: #feba00;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+}
+
+#titulo {
+
+}
+
+#links {
+    width: 80%;
+    height: 50px;
+    background-color: #9E0059;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    font-family: fantasy;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#acessar {
+    color: white;
+} 
+
+#banner {
+    width: 60%;
+    height: 300px;
+    background-image: url(../images/shameless.png);
+    background-size: 100% 100% ;
+    margin: 15px auto;
+    border-radius: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
