@@ -1,53 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-#pagina {
-    width: 100%;
-    height: auto;
-    
-    
-}
-
-header {
-    width: 100%;
-    height: 40px;
-    padding: 10px 0;
-    background-color: #540804;
-}
-
-#logo {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-    /* overflow: hidden; para a div não estourar */
-    float: left;
-}
-
-#logo img {
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-}
-
-nav {
-    width: auto;
-    height: 40px;
-    float: right;
-    margin: 0 20px;
-    line-height: 40px;
-}
-
-nav a{
-    font-family: fantasy;
-    text-decoration: none;
-    color: white;
-    margin: 0 30px;
-}
 
 main{
-    width: 80%;
+    width: 60%;
     height: auto;
     padding: 20px;
     margin: 10px auto;
@@ -89,12 +42,3 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer{
-    width: 100%;
-    height: 40px;
-    padding: 10px 0; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    text-align: center;
-    background-color: #540804; 
-}

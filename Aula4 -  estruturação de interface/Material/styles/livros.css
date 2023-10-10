@@ -1,0 +1,58 @@
+main{
+    width: 100%;
+    margin: 20px 0;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    color: #540804;
+    font-family: fantasy;
+}
+
+#maldosas{
+    width: 60%;
+    height: auto;
+    background-color: ;
+    margin: 0 auto;
+    border: 2px solid #8C2F39;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.livros{
+    width: 100%;
+    height: 300px;
+    background-color: #8C2F39;
+    margin: 10px 0;
+}
+
+.livroImagem{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.livroImagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.livroTexto{
+    width: 50%;
+    height: 100%;
+    background-color: #B23A48;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.livroTexto h3 {
+    margin: 10px 10px 30px 10px;
+    text-align: center;
+    color: #461220;
+    font-family: fantasy;
+}
+
+.livroTexto p {
+    margin: 0 10px;
+}
