@@ -57,3 +57,10 @@ footer{
     text-align: center;
     background-color: #540804; 
 }
+
+h2{
+    text-align: center;
+    margin: 20px;
+    color: #540804;
+    font-family: fantasy;
+}
