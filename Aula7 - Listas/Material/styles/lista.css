@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    background-color: bisque;
+}
+
+li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

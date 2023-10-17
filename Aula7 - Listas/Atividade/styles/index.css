@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    
+}
+
+#preco {
+    margin: 100px
+}
+
+dt {
+    margin: 25px;
+}
