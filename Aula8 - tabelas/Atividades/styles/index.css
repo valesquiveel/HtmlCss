@@ -1,0 +1,40 @@
+*{
+    font-family: Arial;
+    font-size: 12px;
+
+}
+
+table{
+    background-color: #c7e7f3;
+    margin: 10px;
+    width: 25%;
+}
+
+td{
+    padding: 2px;
+}
+
+caption{
+    background-color: #0d5188;
+    color: white;
+    padding: 2px;
+}
+
+.coluna1{
+    background-color: #66c5e3;
+    font-weight: 700;
+}
+
+.posicao{
+    background-color: #c0c0c0;
+    text-align: center;
+}
+
+.cidade {
+    color: #0d5188;
+    font-weight: 700;
+}
+
+.pop {
+    text-align: center;
+}
