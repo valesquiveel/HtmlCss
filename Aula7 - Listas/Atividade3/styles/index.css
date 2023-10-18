@@ -6,7 +6,7 @@
 body{
     width: 25%;
     height: auto;
-    background-color: #FDFEF0;
+    background-color: #5C9EAD;
     display: flex;
 }
 
@@ -14,18 +14,20 @@ body{
     border: solid;
     display: flex;
     flex-direction: column;
+    
 }
 
 #titulo{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+    color: #fff;
 }
 
 #pontos{
     text-align: center;
     font-size: 21px;
-    color: #B1B3A0;
+    color: #326273;
 }
 
 main{
@@ -46,10 +48,11 @@ main{
 
 .nomes {
     margin: 20px;
+    color: #fff;
 }
 
 .descricao{
-    color: #B1B3A0;
+    color: black;
 }
 
 footer{
@@ -62,7 +65,7 @@ footer{
 #informacoes{
     display: flex;
     flex-direction: column;
-    color: #B1B3A0;
+    color: #326273;
 }
 
 #logo {
