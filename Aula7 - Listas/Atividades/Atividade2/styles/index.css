@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     background-color: #FFCAC4;
     height: 100px;
-    width: 25%;
+    max-width: 600px;
     margin-top: 90px;
     line-height: 100px;
 }
@@ -33,7 +33,7 @@ ul{
 main {
     margin: 0 auto;
     background-color: #fff;
-    width: 25%;
+    max-width: 600px;
     height: auto;
     padding: 100px;
     display: flex;
@@ -51,7 +51,7 @@ li{
     margin: 0 auto;
     background-color: #FFCAC4;
     height: 100px;
-    width: 25%;
+    max-width: 600px;
     padding-top: 25px;
     font-size: 20px;
     
