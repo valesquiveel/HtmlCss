@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+@font-face{
+    font-family: 'Super Squad';
+    src: url(../Fontes/Super\ Squad\ Italic.otf);
+}
+
+h1{
+    font-family: 'Super Squad';
+    letter-spacing: 10px;
+    /* text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-style: wavy; */
+    text-shadow: 3px 3px 3px purple ;
+}
+
+p{
+    font-family: 'Inter', sans-serif;;
+    line-height: 35px;
+    word-spacing: 5px;
+    text-indent: 25px;
+    text-align: justify;
+    font-style: italic;
+}
+
+li{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(45deg, rgb(195, 0, 255) 15%, rgb(92, 5, 47));
+}
