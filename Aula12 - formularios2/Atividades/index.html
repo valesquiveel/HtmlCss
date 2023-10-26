@@ -10,35 +10,35 @@
 <body>
     <form action="">
             <fieldset>
-                <fieldset>
+                <fieldset >
                     <legend>DADOS PESSOAIS</legend>
-                    <div>
+                    <div class="centro">
                         <label for="nome"></label>
                         <input type="name" id="nome" placeholder="Nome" name="nome" autocomplete="cc-name">
                     </div>
 
-                    <div>
+                    <div >
                         <label for="nascimento" id="dnas">Data Nascimento:</label>
                         <input type="date" placeholder="Data Nasc." name="nascimento" autocomplete="bday" id="nascimento">
                     </div>
 
                     <div id="loca">
-                        <div class="endereco">
+                        <div  class="endereco">
                             <label for="endereco"></label>
                             <input type="address" placeholder="Endereço" name="endereço" autocomplete="cc-address" id="endereco">
                         </div>
-                        <div class="endereco">
+                        <div  class="endereco">
                             <label for="uf"></label>
                             <input type="address" placeholder="UF" name="uf" autocomplete="cc-address" id="uf">
                         </div>
                     </div>
 
                     <div id="contato">
-                        <div class="contato">
+                        <div  class="contato">
                             <label for="celular"></label>
                             <input type="tel" name="celular" placeholder="Celular" autocomplete="tel" id="celular">
                         </div>
-                        <div class="contato">
+                        <div  class="contato">
                             <label for="email"></label>
                             <input type="email" name="email"  id="email"  placeholder="Email" autocomplete="email">
                         </div>
@@ -47,76 +47,96 @@
 
                 <fieldset>
                     <legend>OBJETIVO</legend>
-                    <div>
+                    <div >
                         <input type="text" name="objetivo" id="objetivo">
                     </div>
                 </fieldset>
 
                 <fieldset>
                     <legend>FORMAÇÃO ACADEMICA</legend>
-                    <div>
-                        <label for="ano" id="anof">Ano de conclusão</label>
-                        <input type="month" autocomplete="bday-month" name="ano" id="ano">
-                    </div>
-
-                    <div>
-                        <input type="text" name="curso" id="curso" placeholder="Curso">
+                    <div id="formacao">
+                        <div  class="ano1">
+                            <label for="ano">Ano de conclusão</label>
+                            <input type="month" autocomplete="bday-month" name="ano" id="ano">
+                        </div>
+                        <div  class="ano1">
+                            <input type="text" name="curso" id="curso" placeholder="Curso">
+                        </div>
                     </div>
                 </fieldset>
 
                 <fieldset>
-                    <legend>Esperiências Profissionais</legend>
-                    <div>
-                        <input type="text" name="exp" id="curso" placeholder="Empresa">
-                    </div>
-
-                    <div>
-                        <input type="text" name="periodo" id="periodo" placeholder="Período">
-                    </div>
-
-                    <div>
-                        <input type="text" name="cargo" id="cargo" placeholder="Cargo">
-                    </div>
-
-                    <div>
-                        <input type="text" name="Funções" id="funcoes" placeholder="Funções">
+                    <legend>EXPERIÊCIAS PROFISSIONAIS</legend>
+                    <div id="expp">
+                        <div class="exp1">
+                            <div >
+                                <label for="empresa"></label>
+                                <input type="text" name="exp" id="empresa" placeholder="Empresa">
+                            </div>
+                            <div >
+                                <input type="text" name="periodo" id="periodo" placeholder="Período">
+                            </div>
+                            <div >
+                                <input type="text" name="cargo" id="cargo" placeholder="Cargo">
+                            </div>
+                            <div >
+                                <input type="text" name="Funções" id="funcoes" placeholder="Funções">
+                            </div>
+                        </div>
+                        <div class="exp1">
+                            <div >
+                                <label for="empresa"></label>
+                                <input type="text" name="exp" id="empresa1" placeholder="Empresa">
+                            </div>
+                            <div >
+                                <input type="text" name="periodo" id="periodo1" placeholder="Período">
+                            </div>
+                            <div >
+                                <input type="text" name="cargo" id="cargo1" placeholder="Cargo">
+                            </div>
+                            <div >
+                                <input type="text" name="Funções" id="funcoes1" placeholder="Funções">
+                            </div>
+                        </div>
                     </div>
                 </fieldset>
 
                 <fieldset>
                     <legend>CURSOS COMPLEMENTARES </legend>
                     <fieldset>
-                        <div>
-                            <input type="text" name="curso" placeholder="Curso" id="curso2">
+                        <div class="dois">
+                            <div  class="dois1">
+                                <input type="text" name="curso" placeholder="Curso" id="curso2">
+                            </div>
+                            <div  class="dois1">
+                                <input type="text" name="periodo" placeholder="Período" id="periodo2">
+                            </div>
                         </div>
-                        <div>
-                            <input type="text" name="periodo" placeholder="Período" id="periodo2">
+                        <div >
+                            <input type="text" name="descrição" id="descricao" placeholder="Descrição">
+                        </div>
+
+                        <div class="dois">
+                            <div  class="dois1">
+                                <input type="text" name="curso" placeholder="Curso" id="curso2">
+                            </div>
+                            <div  class="dois1">
+                                <input type="text" name="periodo" placeholder="Período" id="periodo2">
+                            </div>
                         </div>
                         <div>
                             <input type="text" name="descrição" id="descricao" placeholder="Descrição">
                         </div>
-                    </fieldset>
-
-                    <fieldset>
-                        <div>
-                            <input type="text" name="curso" placeholder="Curso" id="curso2">
+                    
+                        <div class="dois">
+                            <div  class="dois1">
+                                <input type="text" name="curso" placeholder="Curso" id="curso2">
+                            </div>
+                            <div  class="dois1">
+                                <input type="text" name="periodo" placeholder="Período" id="periodo2">
+                            </div>
                         </div>
-                        <div>
-                            <input type="text" name="periodo" placeholder="Período" id="periodo2">
-                        </div>
-                        <div>
-                            <input type="text" name="descrição" id="descricao" placeholder="Descrição">
-                        </div>
-                    </fieldset>
-
-                    <fieldset>
-                        <div>
-                            <input type="text" name="curso" placeholder="Curso" id="curso2">
-                        </div>
-                        <div>
-                            <input type="text" name="periodo" placeholder="Período" id="periodo2">
-                        </div>
-                        <div>
+                        <div >
                             <input type="text" name="descrição" id="descricao" placeholder="Descrição">
                         </div>
                     </fieldset>
