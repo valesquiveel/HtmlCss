@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'halloween';
+    src: url(../fonts/HALLOWEEN.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit';
+}
+
+.backgroundimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'halloween';
+}
+
+header, footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.images {
+    width: 100%;
+}
+
+
+#page {
+    width: 100%;
+    background-color: rgb(255, 218, 176);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(252, 145, 23);
+    font-weight: 700;
+}
+
+#icon {
+    cursor: pointer;
+    display: none;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+nav > ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+
+#logo {
+    width: 75px;
+    border-radius: 75px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#banner {
+    width: 60%;
+    height: 300px;
+    margin: 20px auto;
+    background-image: url(../image/iStock_75260537_MEDIUM.jpg);
+}
+
+#sobre {
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+}
+
+#footer {
+    color: white;
+
+}
+
+#menumobile {
+    display: none;
+}
+
+@media screen and (max-width : 768px) {
+    #banner {
+        width: 90%;
+    }
+}
+
+

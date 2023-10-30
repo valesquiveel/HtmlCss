@@ -1,0 +1,40 @@
+@keyframes mudaCor {
+    0% {
+        color: brown;
+    }
+
+    20% {
+        color: blueviolet;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    60% {
+        color: burlywood;
+    }
+
+    80% {
+        color: aqua;
+    }
+
+    100% {
+        color: pink;
+    }
+}
+
+h1 {
+    animation-name: mudaCor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#icon {
+    display: block;
+}
+
+#menupc {
+    display: none;
+}
+

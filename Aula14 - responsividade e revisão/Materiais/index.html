@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/@media.css" media="screen and (max-width : 768px)">
+    <link rel="shortcut icon" href="image/halloween-2023-date_64d22113002c9.jpg" type="image/x-icon">
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div><img class="images" id="logo" src="image/halloween-2023-date_64d22113002c9.jpg" alt=""></div>
+            <nav id="menupc">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre Halloween</a></li>
+                    <li><a href="#">Curiosidades</a></li>
+                    <li><a href="#">Época</a></li>
+                </ul>
+            </nav>
+
+            <!-- mobile -->
+            <div id="icon" onclick="dropdown()">
+                <img class="menuicon" src="image/menuIcon.svg" alt="">
+            </div>
+        </header>
+        <nav id="menumobile">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre Halloween</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Época</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="banner" class="backgroundimg"></section>
+            <section id="sobre">
+                <h1>Halloween 2023</h1>
+                <img class="images" src="image/fantasias-halloween-2023.webp" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus magni minus, ad itaque amet beatae eos repellendus dolore aperiam porro obcaecati incidunt exercitationem labore in reprehenderit enim distinctio aspernatur. Asperiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, debitis nemo? Nam doloribus quisquam possimus dignissimos nostrum? Reiciendis ex doloremque repellat, necessitatibus laboriosam quas culpa sequi in soluta, veritatis ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsam quisquam dolores repellendus. Neque explicabo ex esse exercitationem aspernatur hic, blanditiis enim quod maxime reprehenderit eos ab nobis iusto sit.</p>
+            </section>
+            <section id="curiosidades"></section>
+            <section id="epoca"></section>
+        </main>
+
+        <footer>
+            <h4 id="footer">Todos os direitos reservador a @Halloween</h4>
+        </footer>
+    </div>
+
+    <script>
+        function dropdown() {
+
+            if(menumobile.style.display == "flex"){
+                menumobile.style.display = "none"
+            }else{
+                menumobile.style.display = "flex"
+            }
+        }
+    </script>
+</body>
+</html>
